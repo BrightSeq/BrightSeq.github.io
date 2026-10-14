@@ -15,4 +15,4 @@ Static HTML/CSS for GitHub Pages (organisation site, repo `EmbedGrad/embedgrad.g
 
 ## Not decided yet
 
-Contact email, wordmark (the logo medallion is in `assets/brand/`; small sizes use `icon-*.png`, the zoomed-in lantern version), Chalkdoku's privacy policy text (depends on which SDKs the game ships with), support page, Chalkdoku store link (add only after the Play listing is public).
+Contact email, wordmark (the logo medallion is in `assets/brand/`; `logo-*.png` is the detailed illustrated medallion for big placements; the separately drawn simple icon (`icon.svg`, `icon-*.png`, `favicon.ico`) is for the header, favicon and Play), Chalkdoku's privacy policy text (depends on which SDKs the game ships with), support page, Chalkdoku store link (add only after the Play listing is public).
