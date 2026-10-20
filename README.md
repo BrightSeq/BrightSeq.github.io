@@ -16,3 +16,5 @@ Static HTML/CSS for GitHub Pages (organisation site, repo `EmbedGrad/embedgrad.g
 ## Not decided yet
 
 Contact email, logo and icon, Chalkdoku's privacy policy text (depends on which SDKs the game ships with), support page, Chalkdoku store link (add only after the Play listing is public).
+
+The complete brand working set is kept in [source/brand/](source/brand/), including the original logo, icon artwork, simplified SVGs, store-size exports and wordmark variants. Use `assets/brand/` for website-facing exports and keep their URLs stable when updating artwork.
