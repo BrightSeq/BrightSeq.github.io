@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://embedgrad.github.io/sitemap.xml
+Sitemap: https://brightseq.com/sitemap.xml
