@@ -19,7 +19,7 @@ Static HTML/CSS for GitHub Pages (organisation site, repo `BrightSeq/BrightSeq.g
 ## Identity on the site
 
 - Studio name: BrightSeq.
-- Legal entity: Anhui Mingxu Technology Co., Ltd.
+- Legal entity: 安徽明序科技有限公司 (Anhui Mingxu Technology Co., Ltd). The Chinese name is the registered name.
 - Registered address: Room 4174, Haiwo World Trade Mall, Longhu Road, Tianjia'an District, Huainan, Anhui, China.
 - Company email: mingxufortune@gmail.com. This is the address in the footer, the contact section and the website privacy notice.
 - Chalkdoku support stays mengjingchanyu@gmail.com. Do not replace it with the company email.
