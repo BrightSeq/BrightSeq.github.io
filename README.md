@@ -38,8 +38,18 @@ Play Console associates the site by a Search Console ownership link, not by the 
 
 ## Brand
 
-The logo medallion is in `assets/brand/`. `logo-*.png` is the detailed illustrated medallion for large placements. The simple app icon is a clay-style cave mouth with a lantern and stone steps, generated from the medallion (`icon-*.png`, `apple-touch-icon.png`, `favicon.ico`; source `source/brand/icon-cave-source.jpg`, Play 512 px in `source/brand/play-icon-512.png`).
+The mark is a striped sun cut by a single diagonal line: the stripes are the sequence (序), the sun is the light (明). Official source files are in [source/brand/sun-slash/](source/brand/sun-slash/): colour icon (rounded, square, bare sun on transparent), one-colour black and white, a simplified small-size icon for 16/24/32 px (4 stripes, larger sun), PNGs from 16 to 1024 px, `favicon.ico`, and horizontal and vertical lockups (each also on dark). `source/brand/sun-slash/png/` holds the exports.
 
-Brand files in `assets/brand/`: wordmark (`wordmark.svg` for light backgrounds, `wordmark-on-dark.svg`, `wordmark-mono-dark.svg` / `wordmark-mono-light.svg` for one-colour use), `lockup-horizontal.png`, `lockup-vertical.png`, `social-preview.png` (1200x630, linked from `en/index.html` via og:image). The wordmark is Fraunces Bold converted to outlines with a deep-green-to-lantern-amber gradient and a lit dot in the last `q`; sources in `source/brand/wordmark/`.
+Website files in `assets/brand/` keep their original names and URLs; only the artwork changed:
+- `icon-16/32/64/192/512.png`, `apple-touch-icon.png`, root `favicon.ico`: the sun icon (16/32 use the small-size variant).
+- `logo-512.png`, `logo-master.png`: the same icon at larger sizes (`logo-512.png` is the `logo` in the Organization JSON-LD).
+- `lockup-vertical.png` (icon above the name) is the home page hero image; `lockup-horizontal.png` is the same set side by side.
+- `social-preview.png` (1200x630, linked from `en/index.html` via og:image): vertical lockup plus the line "Small games. Careful puzzles.".
+- Wordmark (`wordmark.svg` for light backgrounds, `wordmark-on-dark.svg`, `wordmark-mono-dark.svg` / `wordmark-mono-light.svg` for one colour) is unchanged: Fraunces Bold converted to outlines with a deep-green-to-lantern-amber gradient and a lit dot in the last `q`; sources in `source/brand/wordmark/`.
+- Play listing icon source: `source/brand/play-icon-512.png` (full-bleed square, no rounded corners) and `source/brand/icon-1024.png`.
 
-The complete brand working set is kept in [source/brand/](source/brand/), including the original logo, icon artwork, simplified SVGs, store-size exports and wordmark variants. Use `assets/brand/` for website-facing exports and keep their URLs stable when updating artwork.
+Other brand folders in `source/brand/`:
+- [sun-mark/](source/brand/sun-mark/): the earlier stair-cut version of the sun (each stripe ends one step further left). Kept as an alternative; not used on the site.
+- The original clay cave-and-lantern artwork (`logo-original.jpg`, `icon-cave-source.jpg`, `simple.svg`, `simple-line.svg`) is kept for reference.
+
+Keep the URLs in `assets/brand/` stable when updating artwork. Colours: tile `#0A2D21` to `#17553E`, sun `#FFF3CC` through `#FFC857` to `#EE7B1A`, page background `#f4f2ea`.
