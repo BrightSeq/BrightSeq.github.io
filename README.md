@@ -27,7 +27,7 @@ Static HTML/CSS for GitHub Pages (organisation site, repo `BrightSeq/BrightSeq.g
 
 ## Still open
 
-- Chalkdoku's game privacy policy, at `en/games/chalkdoku/privacy/`. Do not publish it until the game is ready for review. The draft describes planned AdMob, Firebase Analytics, Crashlytics and Play Billing; those SDKs are not in the game yet.
+- Chalkdoku's game privacy policy, at `en/games/chalkdoku/privacy/`. Today it is a placeholder shell: `noindex`, not in `sitemap.xml`, not linked from other pages, sections 2-11 say "To be completed before release". Do not give its URL to Play Console, and do not link it or add it to the sitemap, until the real text is in (generate it from the game repo's `docs/legal/privacy-policy.md` once the shipped build matches every statement). The draft describes planned AdMob, Firebase Analytics, Crashlytics and Play Billing; those SDKs are not in the game yet. When the real text goes in, drop `noindex`, link it from the game page's Privacy section, and add it to the sitemap.
 - Organization phone number. Play Console asks for one on an organization account, and it is shown on Google Play. It is not on this site because none has been provided.
 - Chalkdoku's store link. Add it only after the Play listing is public.
 - `app-ads.txt` at the site root. Add it only if a released build shows ads.
