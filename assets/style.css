@@ -37,3 +37,4 @@ footer{border-top:1px solid #dcdfd3;display:flex;flex-direction:column;align-ite
 .footer-links{display:flex;flex-wrap:wrap;gap:12px 20px}
 @media(max-width:760px){.hero-split{flex-direction:column-reverse;align-items:flex-start;gap:28px}.hero-mark{width:200px}header,main,footer{padding-left:20px;padding-right:20px}header{height:auto;min-height:72px;padding-top:16px;padding-bottom:16px;flex-wrap:wrap}nav{gap:16px}.hero{padding:40px 0 48px}.game-card{padding:22px}.legal-hero h1{font-size:34px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.policy .table-wrap{overflow-x:auto;margin:12px 0}.policy table{border-collapse:collapse;font-size:14px;color:#4a5e55;min-width:560px}.policy th,.policy td{border:1px solid #d5dfd9;padding:8px 10px;text-align:left;vertical-align:top;overflow-wrap:anywhere}.policy th{background:#eef3f0}

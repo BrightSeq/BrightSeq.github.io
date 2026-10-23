@@ -27,29 +27,4 @@ Static HTML/CSS for GitHub Pages (organisation site, repo `BrightSeq/BrightSeq.g
 
 ## Still open
 
-- Chalkdoku's game privacy policy, at `en/games/chalkdoku/privacy/`. Today it is a placeholder shell: `noindex`, not in `sitemap.xml`, not linked from other pages, sections 2-11 say "To be completed before release". Do not give its URL to Play Console, and do not link it or add it to the sitemap, until the real text is in (generate it from the game repo's `docs/legal/privacy-policy.md` once the shipped build matches every statement). The draft describes planned AdMob, Firebase Analytics, Crashlytics and Play Billing; those SDKs are not in the game yet. When the real text goes in, drop `noindex`, link it from the game page's Privacy section, and add it to the sitemap.
-- Organization phone number. Play Console asks for one on an organization account, and it is shown on Google Play. It is not on this site because none has been provided.
-- Chalkdoku's store link. Add it only after the Play listing is public.
-- `app-ads.txt` at the site root. Add it only if a released build shows ads.
-
-The website privacy notice at `en/privacy/` covers this static site only. It is not the game policy.
-
-Play Console associates the site by a Search Console ownership link, not by the text alone. Register `https://brightseq.com/` in Search Console with the same Google account that owns the Play Console developer account, then send the website verification request from Play Console → Account details. The payments profile legal name and address must match the Dun & Bradstreet record. See [Verify your website](https://support.google.com/googleplay/android-developer/answer/13205715).
-
-## Brand
-
-The mark is a striped sun cut by a single diagonal line: the stripes are the sequence (序), the sun is the light (明). Official source files are in [source/brand/sun-slash/](source/brand/sun-slash/): colour icon (rounded, square, bare sun on transparent), one-colour black and white, a simplified small-size icon for 16/24/32 px (4 stripes, larger sun), PNGs from 16 to 1024 px, `favicon.ico`, and horizontal and vertical lockups (each also on dark). `source/brand/sun-slash/png/` holds the exports.
-
-Website files in `assets/brand/` keep their original names and URLs; only the artwork changed:
-- `icon-16/32/64/192/512.png`, `apple-touch-icon.png`, root `favicon.ico`: the sun icon (16/32 use the small-size variant).
-- `logo-512.png`, `logo-master.png`: the same icon at larger sizes (`logo-512.png` is the `logo` in the Organization JSON-LD).
-- `lockup-vertical.png` (icon above the name) is the home page hero image; `lockup-horizontal.png` is the same set side by side.
-- `social-preview.png` (1200x630, linked from `en/index.html` via og:image): vertical lockup plus the line "Small games. Careful puzzles.".
-- Wordmark (`wordmark.svg` for light backgrounds, `wordmark-on-dark.svg`, `wordmark-mono-dark.svg` / `wordmark-mono-light.svg` for one colour) is unchanged: Fraunces Bold converted to outlines with a deep-green-to-lantern-amber gradient and a lit dot in the last `q`; sources in `source/brand/wordmark/`.
-- Play listing icon source: `source/brand/play-icon-512.png` (full-bleed square, no rounded corners) and `source/brand/icon-1024.png`.
-
-Other brand folders in `source/brand/`:
-- [sun-mark/](source/brand/sun-mark/): the earlier stair-cut version of the sun (each stripe ends one step further left). Kept as an alternative; not used on the site.
-- The original clay cave-and-lantern artwork (`logo-original.jpg`, `icon-cave-source.jpg`, `simple.svg`, `simple-line.svg`) is kept for reference.
-
-Keep the URLs in `assets/brand/` stable when updating artwork. Colours: tile `#0A2D21` to `#17553E`, sun `#FFF3CC` through `#FFC857` to `#EE7B1A`, page background `#f4f2ea`.
+- Chalkdoku's game privacy policy, at `en/games/chalkdoku/privacy/`. Since 2026-10-23 it holds the game repo's provisional text (effective 6 November 2026, written for planned SDKs that are not in the game yet). It is generated: `python3 <game repo>/tools/release/policy_html.py en/games/chalkdoku/privacy/index.html` (`--check` to compare); never edit the policy text here by hand. It stays `noindex`, not linked from other pages and not in `sitemap.xml` until the shipped build matches every statement; then drop `noindex`, link it from the game page's Privacy section and add it to the sitemap. The URL may be given to AdMob and Play Console now; the open items are tracked in the game repo's `docs/todo.md` (隐私政策发布前待补).
